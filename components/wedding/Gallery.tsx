@@ -4,12 +4,12 @@ import Image from "next/image";
 import { motion } from "framer-motion";
 
 const images = [
-    "https://images.unsplash.com/photo-1511285560929-86b16dfe1ad7?q=80&w=800&auto=format&fit=crop",
-    "https://images.unsplash.com/photo-1519741497674-611481863552?q=80&w=800&auto=format&fit=crop",
-    "https://images.unsplash.com/photo-1544078751-58fee2d8a03b?q=80&w=800&auto=format&fit=crop",
-    "https://images.unsplash.com/photo-1522673607200-1648832cee98?q=80&w=800&auto=format&fit=crop",
-    "https://images.unsplash.com/photo-1519225421980-715cb0215aed?q=80&w=800&auto=format&fit=crop",
-    "https://images.unsplash.com/photo-1520854221256-17451cc331bf?q=80&w=800&auto=format&fit=crop",
+    "/profile-cat-1.jpg",
+    "/profile-cat-1.jpg",
+    "/profile-cat-1.jpg",
+    "/profile-cat-1.jpg",
+    "/profile-cat-1.jpg",
+    "/profile-cat-1.jpg",
 ];
 
 export const Gallery = () => {

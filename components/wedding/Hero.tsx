@@ -8,9 +8,9 @@ export const Hero = () => {
             {/* Background Image - Using a placeholder for now as per instructions to use generate_image if needed, 
           but I'll use a descriptive div for the layout first */}
             <div
-                className="absolute inset-0 bg-cover bg-center grayscale-[20%]"
+                className="absolute inset-0 bg-cover bg-center grayscale-20"
                 style={{
-                    backgroundImage: `url('https://images.unsplash.com/photo-1583939003579-730e3918a45a?q=80&w=2000&auto=format&fit=crop')`, // High quality wedding placeholder
+                    backgroundImage: `url('/profile-cat-1.jpg')`, // Placeholder wedding image
                 }}
             >
                 <div className="absolute inset-0 bg-black/40" />

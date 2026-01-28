@@ -31,7 +31,7 @@ export const Story = () => {
 
                 <div className="relative">
                     {/* Vertical Line */}
-                    <div className="absolute left-1/2 h-full w-px -translate-x-1/2 bg-primary/30" />
+                    <div className="absolute left-1/2 h-full w-px -translate-x-1/2 bg-primary/30 hidden md:block" />
 
                     <div className="space-y-24">
                         {milestones.map((item, index) => (
@@ -45,7 +45,7 @@ export const Story = () => {
                                     } flex-col md:flex-row`}
                             >
                                 {/* Timeline Dot */}
-                                <div className="absolute left-1/2 top-0 h-4 w-4 -translate-x-1/2 rounded-full border-4 border-white bg-primary shadow-sm md:top-1/2 md:-translate-y-1/2" />
+                                <div className="absolute left-1/2 top-0 h-4 w-4 -translate-x-1/2 rounded-full border-4 border-white bg-primary shadow-sm md:top-1/2 md:-translate-y-1/2 hidden md:block" />
 
                                 <div className="w-full text-center md:w-[45%] md:text-left">
                                     <span className="text-[10px] font-bold tracking-widest text-primary uppercase">

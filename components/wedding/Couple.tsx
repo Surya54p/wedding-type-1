@@ -55,14 +55,14 @@ export const Couple = () => {
                     <CoupleCard
                         name="Hana Putri"
                         role="The Bride"
-                        image="https://images.unsplash.com/photo-1594463750939-ebb28c3f5fca?q=80&w=800&auto=format&fit=crop"
+                        image="/profile-cat-1.jpg"
                         description="Daughter of Mr. Adam and Mrs. Siti. A kind heart who loves nature and morning coffee."
                     />
                     <CoupleCard
                         name="Aris Setiawan"
                         role="The Groom"
                         reverse
-                        image="https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?q=80&w=800&auto=format&fit=crop"
+                        image="/profile-cat-1.jpg"
                         description="Son of Mr. Bambang and Mrs. Retno. A creative soul who loves photography and weekend runs."
                     />
                 </div>
